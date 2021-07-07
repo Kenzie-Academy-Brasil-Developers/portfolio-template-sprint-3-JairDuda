@@ -39,21 +39,159 @@ html, body, figure, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul, a{
 /* GERAL */
   
 /* HTML */
-html{}
+html{
+    background-color: antiquewhite;
+}
 /* HTML */
   
 /* BODY */
-body{}
+body{
+    padding: 10px;
+    width: 960px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: white
+ }
 /* BODY */
   
 
 /* HEADER */
-header{}
+header{
+    border: 1px solid black;
+    width: 832px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+main{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container{
+    width: 300px;
+    height: 959px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(155, 125, 125); */
+    align-items: center;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    
+}
+.container__foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 115px;
+    height: 115px;
+    border: 1px solid black;
+}
+.container2{
+    
+    width: 500px;
+    height: 250px;
+     
+}
+
+.container2__sobre{
+    width: 100%;
+    height: 120px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.container2__experiencia{
+    width: 100%;
+    height: 120px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    
+}
+
+.container3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container3__soft{
+    width: 240px;
+    height: 240px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    
+}
+
+.container3__hard{
+    width: 240px;
+    height: 240px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    
+}
+
+.container4{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.container4__projeto{
+    width: 240px;
+    height: 150px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    
+}
+
+.container5{
+    border: 1px solid black;
+    width: 832px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    
+}
+
+
+
+
 /* HEADER */
   
 
 /* FOOTER */
-footer{}
+footer{
+    border: 1px solid black;
+    width: 832px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
 /* FOOTER */
 
   
